@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+    <title>
+      Home Page...
+    </title>
+    <style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #839bd6;
+  font-size: larger;
+  padding-right: 0;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 13px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #dad3d3;
+}
+
+.header-right {
+  float: right;
+}
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.Background-image  {
+  /* The image used */
+  background-image: url("https://img.freepik.com/free-photo/top-view-white-arrows-with-copy-space_23-2148490606.jpg?w=1060&t=st=1706082277~exp=1706082877~hmac=8a818c5b595f06f7eb15111b9293bf48bc69391f7161abacc76f22474fca286e");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+body{
+font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  display: none;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0  ;
+  left: 0;
+  background-color: #110c0c;
+  overflow-x: hidden;
+  padding-top: 60px;
+  
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #04AA6D;
+  width: 110px;
+  margin-left: 410px;
+  padding: 8px;
+}
+
+.button1:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+  padding: 8px;
+  width: 110px;
+  margin-left:20px;
+}    
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+div.d {
+  text-align: center;
+  font-size: 25px;
+  padding: 10pxs;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: center;
+  width:33%;
+  padding: 40px;
+  
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.top-right {
+  position: absolute;
+  top: 225px;
+  right: 450px;
+}
+
+.carousel-inner{
+  height: 550px;
+  weight: 100px;
+}
+
+
+
+
+.item{
+  text-align: auto;
+ 
+}
+
+
+
+/* Style the footer */
+footer {
+  background-color: #c5bfbf;
+  padding: 10px;
+  Top:  8px;
+  left: 16px;
+  font-size: 40px;
+  display: flex;
+  padding-left:61px;
+}
+
+
+.CH1{
+  Top:25px;
+  padding:1px;
+  text-align:justify;
+  padding-left:75px;
+  font-size:3px;
+}
+
+div.text {
+  text-align: center;
+  padding-top: 50px;
+} 
+
+.top-right {
+  position: absolute;
+  top: 200px;
+  right:415px;
+}
+
+.Address{
+  Top:25px;
+  padding:1px;
+  text-align:justify;
+  padding-left:75px;
+  font-size:3px;
+}
+
+.Email{
+  Top: 25px;
+  padding:1px;
+  text-align:justify;
+  padding-left:77px;
+}
+
+.Companyname{
+  Top: 25px;
+  padding:3px;
+  text-align:justify;
+  padding-left:77px;
+}
+
+.item{
+  text-align:center;
+}
+  
+  </style>
+  </head>
+  <body>
+
+    <ul>
+      <li><a href="#news">Sign up</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a class="active" href="#home">Home</a></li>
+
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <h1>Services</h1>
+        <a href="#">SEO.</a>
+        <a href="#">Social Media Marketing.</a>
+        <a href="#">Web Site Desiging.</a>
+        
+      </div>      
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>      
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.display = "block";
+      }
+      function closeNav() {
+        document.getElementById("mySidenav").style.display = "none";
+      }
+      </script>
+    </ul>
+    
+
+
+
+
+
+
+  <div class="Background-image">
+
+
+    <div class="top-right"><h1>"Digital Solution"</h1>
+      <h3>In the world of internet customer <br>service
+          for a growth business partner.<br>Lorem Ipsum is simply dummy text 
+          of <br>the printing and typesetting</h3>
+      </div>
+<img src="business-people-analyzing-marketing-reports_74855-11420-removebg-preview (1).png"width="700px"height="435px">
+
+
+<div style="padding-top:20px ; display: flex">
+<button class="button button1">Sign Up</button>
+<button class="button button2">Learn More</button>
+</div>
+
+</div>  
+
+
+
+    <div class="d">
+      <h2>Digital Growth Solution For a Business...</h2>
+      
+      </div>
+
+
+
+
+
+      <div class="row">
+        <div class="column">
+          <img src="https://img.freepik.com/free-vector/engineer-developer-with-laptop-tablet-code-cross-platform-development-cross-platform-operating-systems-software-environments-concept-bright-vibrant-violet-isolated-illustration_335657-312.jpg?w=1060&t=st=1706090360~exp=1706090960~hmac=36e82eba920a4d7431f7541264baf3abb7e56c5ef4cdd2a999f00978c0e351bb" alt="Snow" style="width:100%">
+          <h2>Web Site Design</h2>
+          <p>Web designing is the process of planning, conceptualizing, and implementing the plan for designing a website in a way that is functional and offers a good user experience.User experience is central to the web designing process. Websites have an array of elements presented in ways that make them easy to navigate.</p>
+        </div>
+        
+        <div class="column">
+          <img src="https://img.freepik.com/free-vector/seo-analytics-team-concept-illustration_114360-9205.jpg?w=1060&t=st=1706090202~exp=1706090802~hmac=be91908a5ee526df12b21d4bfd1f71440349649db4284e60167ed648067a7269" alt="Forest" style="width:100%">
+          <h2>SEO</h2>
+          <p>Is the process used to optimize a website's technical configuration, content relevance and link popularity so its pages can become easily findable, more relevant and popular towards user search queries, and as a consequence, search engines rank them better.</p>
+
+        </div>
+      
+        <div class="column">
+          <img src="https://img.freepik.com/free-vector/hand-drawn-illustration-people-with-smartphone-marketing_52683-66659.jpg?w=1060&t=st=1706088890~exp=1706089490~hmac=4055fba3aa38f41529bd8fb0ffa8567ea2b4a68b39b474dbaa44eadba19a0e42" alt="Mountains" style="width:100%">
+          <h2>Social Media Marketing</h2>
+          <P>Is the process used to optimize a website's technical configuration, content relevance and link popularity so its pages can become easily findable, more relevant and popular towards user search queries, and as a consequence, search engines rank them better.</P>
+        </div>
+      </div>
+      
+
+
+
+
+
+
+
+
+      <div class="container">
+      
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+      
+          <!-- Wrapper for slides -->
+
+          <div class="carousel-inner">
+            <div class="item active">              
+              <img src="https://img.freepik.com/free-photo/hand-holding-smartphone-social-media-concept_23-2150208260.jpg?w=1060&t=st=1706172397~exp=1706172997~hmac=e7af085364f66d59385011c88cf2ac40e23151e3e9f9d1afcacb9c0560649548" alt="Los Angeles" style="width:100%;">              
+              <div class="carousel-caption">
+                  
+              </div>
+              </div>
+              
+            
+              <div class="item">
+              <img src="https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg?w=1060&t=st=1706179618~exp=1706180218~hmac=7213740312396d92ac16c566cc0a3740e20885edbf770fe14ec285d9ccc6dd89" alt="Chicago" style="width:100%;">
+              <div class="carousel-caption">                
+              </div>              
+              </div>
+             
+
+          
+            <div class="item">
+              <img src="https://img.freepik.com/free-vector/search-engine-optimization-laptop-with-folder-documents-graphs-key_80328-158.jpg?w=1380&t=st=1706186090~exp=1706186690~hmac=e051d3d2d790dcd766ad781f5317afa0dbd536ca3c36b5a11d7057d5f02f1e52s" alt="New York" style="width:100%">
+              <div class="carousel-caption">                           
+              </div>             
+            </div>
+          </div>
+
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        
+      </div>
+
+      
+      
+      <div class="item">
+        <h3>Social Media Marketing</h3>
+              </div>
+           
+      <div class="item">
+        <h3>Web Desiging</h3>
+      </div>
+      
+      <div class="item">
+        <h3>SEO</h3>
+      </div>
+
+
+
+
+<footer>
+  <div class="header">
+  <h1>Follow Us.</h1>
+  <img src="https://cdn-icons-png.freepik.com/256/5968/5968764.png?ga=GA1.1.171992129.1705400975&semt=ais"width="36" height="36">
+  <img src="https://cdn-icons-png.freepik.com/256/4138/4138124.png?ga=GA1.1.171992129.1705400975&semt=ais"width="38" height="38">
+  <img src="https://cdn-icons-png.freepik.com/256/254/254638.png?ga=GA1.1.171992129.1705400975&semt=ais"width="36" height="36">
+  <img src="https://cdn-icons-png.freepik.com/256/145/145807.png?ga=GA1.1.171992129.1705400975&semt=ais"width="36" height="36">
+  </div>
+
+  <div class="CH1">
+  <h2>Services.</h2>
+  <h3>Web Desiging</h3>
+  <h3>Social Media Marketing</h3>
+  <h3>SEO</h3>
+</div>
+
+<div class="Address">
+  <h2>Address.</h2>
+  <h4>Lorem Ipsum is simply dummy text <br>
+      of the printing and typesetting<br>industry.</h4>
+</div>
+
+
+<div class="Email">
+  <h2>Email.</h2> 
+    <img src="R-removebg-preview.png"height="29"width="30">
+    <h4>xyz442@gmail.com</h4>
+</div>
+
+<div class="Companyname">
+<h2>XYZ.Pvt Ltd</h2>
+<img src="https://cdn-icons-png.freepik.com/256/254/254638.png?ga=GA1.1.171992129.1705400975&semt=ais"width="28" height="30">
+<h4>Mobile No: 9867202813</h4>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</footer> 
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+     
+
+
+  </body>
+</html>
